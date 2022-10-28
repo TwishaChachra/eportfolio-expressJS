@@ -4,6 +4,6 @@
 <p>It contains my email id and a link to my linkedin profile if someone wants to contact me</p>
 <p>Live site is deployed at: 
     <a href="https://eportfolio-express.herokuapp.com/" target="_new">
-            https://eportfolio-express.herokuapp.com/>
+            https://eportfolio-express.herokuapp.com/
     </a>
 </p>
