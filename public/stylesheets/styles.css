@@ -299,7 +299,32 @@ padding: 0%;
     color:rgb(190,190,190);
   }
 
+.card-text{
+  color:#fff
+}
 @media(max-width:768px){
+  .home-section{
+    padding:3% 3% 3% 7%;
+  }
+  .sec-2 p{
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .sec-2 h2{
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .sec-2 button{
+    background-color: silver;
+    color: black;
+     padding: 3% 3%;
+    } 
+    #about-btn{
+        margin-left:1%
+    }  
+    #email-btn{
+        margin-left:5%
+    } 
     .about{
         height:180%
     }
@@ -382,7 +407,7 @@ padding: 0%;
         } 
         .row-1 div img{
             width: 100%;
-            height: 50vh;
+            height: 100vh;
           }
           .row-1 div:nth-child(2){
             padding: 2%;
@@ -392,7 +417,7 @@ padding: 0%;
           }
           .row-2 div img{
             width: 100%;
-            height: 50vh;
+            height: 100vh;
           }
   }
   @media only screen and (min-width:1025px) {   
@@ -439,17 +464,18 @@ padding: 0%;
             margin-left:11.875em
         }
         .row-1 div img{
-            width: 100%;
-            height: 50vh;
-          }
-          .row-1 div:nth-child(2){
-            padding: 2%;
-          }
-          .row-2 div:first-child{
-            padding: 2%;
-          }
-          .row-2 div img{
-            width: 100%;
-            height: 50vh;
-          }
+          width: 100%;
+          height: 50vh;
+        }
+        .row-1 div:nth-child(2){
+          padding: 2%;
+        }
+        .row-2 div:first-child{
+          padding: 2%;
+        }
+        .row-2 div img{
+          width: 100%;
+          height: 50vh;
+        }
+       
   }
